@@ -93,7 +93,7 @@ void Widget::on_btnReset_clicked()
     msg += QString("50원: %1개\n").arg(coin50);
     msg += QString("10원: %1개").arg(coin10);
 
-    QMessageBox::information(this, "거스름돈", msg);
+    QMessageBox::information(this, "거스름 돈", msg);
 
     money = 0;
     ui->lcdNumber->display(money);
